@@ -13,6 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^10.4.13",
+    "dotenv": "^16.0.3",
     "google-spreadsheet": "^3.3.0",
     "moment": "^2.29.4",
     "next": "^13.1.6",
