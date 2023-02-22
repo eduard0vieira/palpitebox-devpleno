@@ -9,21 +9,14 @@ const Header = () => {
         <div className="container mx-auto">
           <Link legacyBehavior href="/">
             <a>
-              <img
-                className="mx-auto"
-                src="/logo_palpitebox.png"
-                alt="Logo Palpite Box"
-              />
+              <img className="mx-auto" src="/logo_palpitebox.png" alt="Logo Palpite Box" />
             </a>
           </Link>
         </div>
       </div>
       <div className={styles.nav}>
-        <Link legacyBehavior href="/sobre">
-          <a className="px-2 hover:underline">Sobres</a>
-        </Link>
-        <Link legacyBehavior href="/contato">
-          <a className="px-2 hover:underline">Contato</a>
+        <Link legacyBehavior href="/">
+          <a className="px-2 hover:underline">Início</a>
         </Link>
         <Link legacyBehavior href="/pesquisa">
           <a className="px-2 hover:underline">Pesquisa</a>
