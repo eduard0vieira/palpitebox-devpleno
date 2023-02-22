@@ -1,23 +1,18 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react'
+import Link from 'next/link'
+import PageTitle from '../components/PageTitle'
 
-const contato = () => {
+const Contato = () => {
   return (
     <div>
+      <PageTitle title='Contato' />
       <h1>Contato</h1>
       <div>
-        <Link legacyBehavior href="/">
+        <Link legacyBehavior href='/'>
           <a>Home</a>
-        </Link>
-        <Link legacyBehavior href="/sobre">
-          <a>Sobre</a>
-        </Link>
-        <Link legacyBehavior href="/pesquisa">
-          <a>Pesquisa</a>
         </Link>
       </div>
     </div>
-  );
-};
-
-export default contato;
+  )
+}
+export default Contato
